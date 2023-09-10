@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ emailcampaign.subject }}</title>
+  </head>
+  <body>
+    <h2>Hi {{ subscriber.first_name }}!</h2>
+    <h1>{{ emailcampaign.subject }}</h1>
+    <p>{{ emailcampaign.preview_text }}</p>
+    <a href="{{ emailcampaign.article_url }}">Read More</a>
+    <div>{{ emailcampaign.html_content }}</div>
+  </body>
+</html>
